@@ -1,2 +1,2 @@
 #!/bin/bash
-su chmod 774 hello
+chmod 774 /0x01-shell_permissions/hello
