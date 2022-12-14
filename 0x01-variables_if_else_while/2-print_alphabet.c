@@ -6,13 +6,13 @@
 #include <stdio.h>
 int main(void)
 {
-	char alfbet = "a";
+	char alfbet = 'a';
 
-	while (alfbet <= "z")
+	while (alfbet != 'z')
 	{
 		putchar(alfbet);
 		alfbet++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
