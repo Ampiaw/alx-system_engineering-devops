@@ -1,5 +1,5 @@
 /**
- * main - function that prints the lowercase alphabets
+ * print_alphabet - function that prints the lowercase alphabets
  */
 #include "main.h"
 void print_alphabet(void)
