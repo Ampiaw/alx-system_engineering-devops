@@ -5,7 +5,7 @@
  * return: always 0
  */
 
-int main(void)
+main(void)
 {
 	char a;
 	char z;
@@ -19,10 +19,10 @@ int main(void)
 	{
 		putchar("%c", a);
 	}
-	for (A = 65; A <= 90; A++);
+
+	for (A = 65; A <= 90; A++)
 	{
 		putchar("%c", A);
 	}
 	putchar("\n");
-	return (0);
 }
