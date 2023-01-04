@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints alpabets in both lowercase and uppercase
+ * main - to prints alpabets in both lowercase and uppercase
  * Return: Always 0
  */
 
