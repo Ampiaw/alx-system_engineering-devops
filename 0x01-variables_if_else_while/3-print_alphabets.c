@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - to print alpabets in both lowercase and uppercase
- *
- * return: always 0
+ * main - prints alpabets in both lowercase and uppercase
+ * Return: Always 0
  */
 
-main(void)
+int main(void)
 {
 	char a;
 	char z;
@@ -17,12 +17,14 @@ main(void)
 
 	for (a = 97; a <= 122; a++)
 	{
-		putchar("%c", a);
+		putchar(a);
 	}
 
 	for (A = 65; A <= 90; A++)
 	{
-		putchar("%c", A);
+		putchar(A);
 	}
-	putchar("\n");
+	putchar('\n');
+
+	return (0);
 }
