@@ -15,12 +15,12 @@ int main(void)
 	z = 122;
 	Z = 90;
 
-	for (a = 97; a <= 122; a++)
+	for (a = 97; a <= z; a++)
 	{
 		putchar(a);
 	}
 
-	for (A = 65; A <= 90; A++)
+	for (A = 65; A <= Z; A++)
 	{
 		putchar(A);
 	}
